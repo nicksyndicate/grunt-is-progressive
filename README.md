@@ -39,6 +39,12 @@ grunt.initConfig({
 
 ### Options
 
+#### options.pixelCount
+Type: `Number`
+Default value: `'0'`
+
+A string value that is used to do something else with whatever else.
+
 ```js
 grunt.initConfig({
   is_progressive: {

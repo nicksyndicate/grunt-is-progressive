@@ -27,6 +27,9 @@ module.exports = function(grunt) {
     is_progressive: {
       default_options: {
         src: './test/**/*.jpg'
+      },
+      options: {
+        pixelCount: 100
       }
     },
 
